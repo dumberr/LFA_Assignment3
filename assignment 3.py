@@ -102,7 +102,7 @@ if __name__ == "__main__":
             cuvant = input("cuvant pentru derivare: ").strip()
             rezultat = derivare(CFG["generare"], cuvant)
             if rezultat:
-                print("Pașii derivării:")
+                print("Pasii derivarii:")
                 for pas in rezultat:
                     print(pas)
             else:
