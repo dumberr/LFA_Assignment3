@@ -53,11 +53,11 @@ Dupa rulare vei vedea meniul:
 3. Recunoastere
 4. exit
 ```
-- 1. Genereaza N cuvinte:
+1. Genereaza N cuvinte:
     introdu numar de cuvinte dorit
 
-- 2. Derivare
+2. Derivare
     introdu un cuvant. Se vor afisa pasii derivari daca cuvantul poate fi generat
 
-- 3. Recunoastere
+3. Recunoastere
     introdu un cuvant. Se va afisa True/False daca acesta apartine limbajului descris de CFG
