@@ -80,6 +80,16 @@ def recognize(s, simbol = "S"):
             return True
     return False
 
+#bonus
+def abc (cuv):
+        n= len(cuv)
+        if n % 3 != 0 or n == 0:
+            return False
+        third = n//3
+        if cuv[:third] == "a" * third and cuv[third:2*third] == "b" * third and cuv[2*third:] == "c" * third:
+            return True
+        return False
+
 #meniu de select "actiune"
 if __name__ == "__main__":
     while True:
@@ -87,9 +97,10 @@ if __name__ == "__main__":
         print("2. Derivare")
         print("3. Recunoastere")
         print("4. exit")
+        print("5. bonus")
         print("-------------")
 
-        choice = input("task-ul (1-4): ").strip()
+        choice = input("task-ul (1-5): ").strip()
         
         if choice == "1":
             n = int(input("cate cuvinte: "))
@@ -111,6 +122,10 @@ if __name__ == "__main__":
         elif choice == "3":
             cuvant = input("cuvant de recognize:").strip()
             print("Rezultat:", recognize(cuvant))
+
+        elif choice == "5":
+            cuvant = input("cuvant: ").strip()
+            print(abc(cuvant))
         
         elif choice == "4":
             break
