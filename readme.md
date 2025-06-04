@@ -8,6 +8,7 @@ Acest proiect rezolva programatic cerintele assignmentului 3:
 2. Generarea de cuvinte din limbaj
 3. Realizarea derivailor pas cu pas
 4. Recunoasterea apartenentei unui cuvant la limbaj
+5. Bonus - recunoasterea apartenentei unui cuvant la limbajul L={a^nb^nc^n | n >=1}
 
 Functionalitati 
 
@@ -39,6 +40,10 @@ Optiunea 2 afiseaza pasii de derivare de la simbolul de start la un cuvant intro
 
 Optiunea 3 verifica daca un cuvant dat poate fi generat de gramatica (apartine limbajului).
 
+5. Recunoastere apartenenta a^nb^nc^n
+
+
+
 ## Cum se ruleaza
 
 ### Cerinte
@@ -61,3 +66,6 @@ Dupa rulare vei vedea meniul:
 
 3. Recunoastere
     introdu un cuvant. Se va afisa True/False daca acesta apartine limbajului descris de CFG
+
+5. Recunoastere a^nb^nc^n
+    introdu un cuvant. Se va afisa True/False daca acesta apartine limbajului 
